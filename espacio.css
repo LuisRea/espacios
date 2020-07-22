@@ -22,13 +22,34 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header {
-    background-color: rgb(192, 50, 50);
+    background-color: rgb(31, 68, 235);
     text-align: center;
-    padding: 100px 25px;
-    color: rgb(223, 198, 128);
+    padding: 50px 25px;
+    color: rgb(250, 246, 235);
 
 }
 header h1{
     margin-bottom: 10px;
     color: rgb(245, 146, 110);
+}
+/*MENU*/
+ul {
+    text-align: center;
+    background-color: rgb(185, 41, 17);
+}
+nav li {
+    
+        display: inline-block;
+        background-color: rgb(185, 41, 17);
+       /* border: 1px solid black; borde solido para delimittar la caja*/
+          
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px 20px;
+}
+nav a:hover{    /*se le dice q cuando este el raton encima de "a" realice algo*/
+    background: #cc2e12;
 }
