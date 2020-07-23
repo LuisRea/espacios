@@ -31,6 +31,7 @@ header {
 header h1{
     margin-bottom: 10px;
     color: rgb(245, 146, 110);
+    font-family:arial black;
 }
 /*MENU*/
 ul {
@@ -49,6 +50,9 @@ nav a{
     color: white;
     display: block;
     padding: 25px 20px;
+    font-size: 15pt;
+    font-family: inherit;
+    
 }
 nav a:hover{    /*se le dice q cuando este el raton encima de "a" realice algo*/
     background: #cc2e12;
