@@ -31,7 +31,9 @@ header {
     text-align: center;
     padding: 40px 25px;
     color: rgb(250, 246, 235);
-
+    position: sticky;
+    top: 0px;
+    
 }
 header h1{
     margin-bottom: 10px;
@@ -42,6 +44,7 @@ header h1{
 ul {
     text-align: center;
     background-color: #9F2E1E;
+    
 }
 nav li {
     
@@ -81,4 +84,8 @@ p.acceso{
 .acceso:hover{
 background: #003772;
 color: white;
+}
+nav {
+    position: sticky;
+    top: 170px;
 }
